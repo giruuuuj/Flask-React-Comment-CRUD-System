@@ -2,7 +2,7 @@ import pytest
 import json
 from app.models import Comment
 
-class TestCommentRoutes:,,
+class TestCommentRoutes:
     """Test cases for comment API routes."""
     
     def test_get_comments_by_task(self, client, sample_task, sample_comment):
